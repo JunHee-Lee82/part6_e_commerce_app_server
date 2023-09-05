@@ -19,4 +19,5 @@ Handler handler = Router()
 
 void main(List<String> args) async {
   final server = await serve(handler, '127.0.0.1', 8080);
+  print('Server listening on port 8080...');
 }
